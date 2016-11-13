@@ -1,0 +1,66 @@
+.title {
+	color:blue;
+}
+
+#book {
+  text-align: left;
+  width: 450px;
+}
+
+#shelf{
+    display:flex;
+    justify-content: space-between;
+}
+
+#outside_container {
+  width: 100%;
+  text-align: center;
+}
+
+#panel_container {
+	max-width: 1000px;
+  display: inline-block;
+}
+
+#bio {
+  text-align: left;
+}
+
+.scrollable {
+  overflow-y:scroll;
+}
+
+#stories {
+  text-align: left;
+  overflow-y:scroll;
+}
+
+.media-object, .media-body, .media-heading{
+  display:inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align:center;
+}
+
+li {
+    display:inline-block;
+}
+
+li a {
+	color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    text-decoration: none;
+    background-color: #111;
+}
